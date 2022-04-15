@@ -6,48 +6,71 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
 
-<div class="bg-lime-400 grid gap-4 sm:grid-cols-1">
-  <h1 class="text-3xl font-bold underline">
-    AK AFIQ FADHLILLAH
-  </h1>
-<img src="./assets/img-min.jpg" class="w-40 m-auto">
-      <ul class="text-lg my-7">
-		    <li>Phone Number: +6738893777</li>
-        <li>Email: 20FTT1447@student.pb.edu.bn</li>
-	    </ul>
+    <div class="w-full min-h-screen bg-blue-100 p-6">
 
-<h1 class="text-xl bold my-7">Education</h1>
+        <h1 class="font-bold text-xl text-center md:text-3xl md:mt-12 mb-4">AK AFIQ FADHLILLAH</h1>
 
-    <div class="grid grid-cols-3 gap-4">
-      <div class="bg-slate-600 text-slate-50">
-        <p>2011 - 2015</p>
-        <p>O' Level</p>
-        <p>SM Sayyidina Abu Bakar</p>
-      </div>
+        <!-- Card Container Start -->
 
-      <div class="bg-slate-600 text-slate-50">
-        <p>2016 - 2017</p>
-        <p>Ntec in Information Technology</p>
-        <p>IBTE Sultan Saiful Rijal Campus</p>
-      </div>
+        <div class="flex flex-wrap justify-center">
 
-      <div class="bg-slate-600 text-slate-50">
-        <p class="">2017 - 2019</p>
-        <p>HNtec in Information Technology</p>
-        <p>IBTE Sultan Saiful Rijal Campus</p>
-      </div>
+            <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-80">
+                <img src="./assets/img-min.jpg" class="w-40 m-auto"> 
+            </div>
+
+
+
+            <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-80">
+                <h1 class="text-xl bold my-4">Contact Details</h1>
+                <ul class="text-lg my-10">
+		              <li>Phone Number: +6738893777</li>
+                  <li>Email: 20FTT1447@student.pb.edu.bn</li>
+	              </ul>
+            </div>
+
+
+
+            <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-80">
+                <h1 class="text-xl bold my-4">Objective</h1>
+                <p>
+                To work in learning and challenging environment, utilizing my skill and knowledge to be the
+                best of abillities and contribute positively to my personal growth as well as growth of the 
+                organization
+                </p> 
+            </div>
+
+          
+
+            <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-80">
+                
+                <h1 class="text-xl bold my-7">Education</h1>
+                
+            <div class="grid grid-cols-3 gap-4">
+            
+            <div class="bg-slate-600 text-slate-50">
+                <p>2011 - 2015</p>
+                <p>O' Level</p>
+                <p>SM Sayyidina Abu Bakar</p>
+            </div>
+
+            <div class="bg-slate-600 text-slate-50">
+                <p>2016 - 2017</p>
+                <p>Ntec in Information Technology</p>
+                <p>IBTE Sultan Saiful Rijal Campus</p>
+            </div>
+
+            <div class="bg-slate-600 text-slate-50">
+                <p class="">2017 - 2019</p>
+                <p>HNtec in Information Technology</p>
+                <p>IBTE Sultan Saiful Rijal Campus</p>
+            </div>
+        </div>
+
+     </div>
+
+  </div>
+
     </div>
-
-    <h1 class="text-xl bold my-7">Profile</h1>
-
-    <div class="grid grid-flow-col auto-cols-max">
-      <div>01</div>
-      <div>02</div>
-      <div>03</div>
-    </div>
-
-    </div>
-
 </template>
 
 <style>
